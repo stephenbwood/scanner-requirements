@@ -1,9 +1,9 @@
-# SCANNER REQUIREMENTS
+# Scanner Requirements
 
-## CONFIGURATION
+## Configuration
 Operator adjustable values should be available through a standard configuration file.
 
-## EXPOSURE MODES
+## Exposure Modes
 * **Variable**
   Uses a floating exposure and color correction values to maintain average brightness and white balance.
 * **Variable with Lock**
@@ -13,15 +13,15 @@ Operator adjustable values should be available through a standard configuration 
 * **Manual**
   Operator defined exposure / color correction.
 
-## FILE OUTPUT
+## Output File Types
 * Camera RAW (IIQ)
 * TIFF 8-bit / 16-bit
 * JPEG
 
-## OUTPUT LOCATION
+## Output Location
 The output location for captured files should be defined through the configuration file.
 
-## NAMING CONVENTIONS
+## Naming Conventions
 File names should reflect the current order, roll, and frame in the format:`{Order}_{Roll}_{Frame}`
 
 ### Acquiring Order Id
@@ -37,3 +37,6 @@ The value for `{Frame}` should depend on the film format.
 | ------ | ----------- |
 | 135 | DX-Code |
 | 120 / 220 | Auto-incrementing from 1 |
+
+## Dust & Scratch Removal
+The scanner should have dust and scratch removal based on the infrared sensitivity of the imaging sensor.
