@@ -22,6 +22,11 @@ Operator defined exposure and backlight adjustment / color correction values.
 * TIFF 8-bit / 16-bit
 * JPEG
 
+## Output Color Space
+* sRGB
+* Adobe RGB (1998)
+* ProPhoto RGB
+
 ## Output Location
 The output location for captured files should be defined through the configuration file.
 
