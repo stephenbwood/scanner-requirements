@@ -48,13 +48,13 @@ The scanner should also output the following data with each scan:
 ## Naming Conventions
 File names should reflect the current order, roll, and frame in the format:`{Order}_{Roll}_{Frame}`
 
-### Acquiring Order Id
-The value for `{Order}` should be user input.
+#### Acquiring Order Id
+The value for `{Order}` should be through user input.
 
-### Acquiring Roll Id
-The value for `{Roll}` should be user input.
+#### Acquiring Roll Id
+The value for `{Roll}` should be through user input.
 
-### Acquiring Frame Id
+#### Acquiring Frame Id
 The value for `{Frame}` should depend on the film format.
 
 | Format | Acquisition |
