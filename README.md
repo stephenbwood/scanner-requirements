@@ -30,6 +30,9 @@ Operator defined exposure and backlight adjustment / color correction values.
 ## Output Location
 The output location for captured files should be defined through the configuration file.
 
+## Output Resolution
+User defined output resolutions.
+
 ## Output Data
 The scanner should also output the following data with each scan:
 * Order Id
