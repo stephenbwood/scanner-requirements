@@ -63,4 +63,4 @@ The value for `{Frame}` should depend on the film format.
 | 120 / 220 | Auto-incrementing from 1 |
 
 ## Dust & Scratch Removal
-The scanner should have dust and scratch removal based on the infrared sensitivity of the imaging sensor.
+The scanner should have dust and scratch removal.
