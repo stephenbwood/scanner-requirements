@@ -83,3 +83,7 @@ The value for `{Frame}` should depend on the film format.
 ## Dust & Scratch Removal
 
 The scanner should have dust and scratch removal.
+
+## Scanner Control API
+
+Provide an API (Application Programming Interface) through which we can programmatically read and write the current values of the scanner settings.
