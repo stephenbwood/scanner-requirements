@@ -30,6 +30,21 @@ Operator defined exposure and backlight adjustment / color correction values.
 ## Output Location
 The output location for captured files should be defined through the configuration file.
 
+## Output Data
+The scanner should also output the following data with each scan:
+* Order Id
+* Roll Id
+* Frame Id
+* Shutter Speed
+* Aperture
+* ISO
+* Backlight Red Value
+* Backlight Green Value
+* Backlight Blue Value
+* Backlight Infrared Value
+* Meter Voltage
+* Capture Time
+
 ## Naming Conventions
 File names should reflect the current order, roll, and frame in the format:`{Order}_{Roll}_{Frame}`
 
