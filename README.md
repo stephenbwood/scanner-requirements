@@ -4,14 +4,18 @@
 Operator adjustable values should be available through a standard configuration file.
 
 ## Exposure Modes
-* **Variable**
-  Uses a floating exposure and color correction values to maintain average brightness and white balance.
-* **Variable with Lock**
-  Same as Variable, but with the option to hold the current exposure/backlight correction values until unlocked.
-* **Stepped Variable**
-  Uses predefined set of exposure/color correction values with corresponding minimum and/or maximum threshold values.
-* **Manual**
-  Operator defined exposure / color correction.
+
+#### Variable
+Uses a floating exposure and color correction / backlight adjustment values to maintain average brightness and white balance.
+
+#### Variable with Lock
+Same as Variable, but with the option to hold the current exposure and backlight adjustment / color correction values until unlocked.
+
+#### Stepped Variable
+Uses predefined set of exposure and backlight adjustment / color correction values with corresponding minimum and / or maximum threshold values.
+
+#### Manual
+Operator defined exposure and backlight adjustment / color correction values.
 
 ## Output File Types
 * Camera RAW (IIQ)
